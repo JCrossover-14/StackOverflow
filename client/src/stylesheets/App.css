@@ -1,0 +1,529 @@
+/* Add your CSS here */
+
+/* Code for styling Header and Side Bar */
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.fakeso {
+  width: 100%;
+  height: 100%;
+}
+
+#maindiv {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-color: lightgray;
+  text-align: center;
+  border: 1.5px solid black;
+}
+
+.searchbar {
+  right: 30px;
+  top: 30px;
+  position: absolute;
+}
+
+.title {
+  padding: 5px;
+  text-align: center;
+}
+
+.belowheader {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  flex: 1;
+  border-right: 2px dotted black;
+  margin: 0;
+  height: 100%;
+}
+
+.main {
+  flex: 3;
+  height: 100%;
+  margin-left: 15px;
+  width: 100%;
+  overflow: auto;
+}
+
+#questionButton,
+#tagButton {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  color: blue;
+}
+
+#questionButton:hover,
+#tagButton:hover {
+  background-color: lightgray;
+}
+
+#questionButton:active,
+#tagButton:active {
+  background-color: lightgray;
+}
+
+/* Code for styler Question Header Main page */
+
+#topQuestionHeader {
+  border-bottom: dotted;
+  margin-bottom: 20px;
+}
+
+#spacingDiv,
+#spacingDiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#allQuestions {
+  display: inline-block;
+}
+
+#askQuestionButton {
+  color: white;
+  background-color: lightblue;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+}
+
+#selector {
+  margin-right: 40px;
+}
+
+.individualQuestion {
+  border-bottom: dotted;
+  display: flex;
+}
+
+.answerViewDiv {
+  flex: 1;
+}
+
+.questionTitle {
+  flex: 5;
+  color: blue;
+  cursor: pointer;
+}
+
+.questionTitle:hover {
+  text-decoration: underline;
+}
+
+.authorDiv {
+  flex: 1;
+  display: flex;
+  margin-left: 15px;
+}
+
+.author-text {
+  color: red;
+}
+
+.date-text {
+  color: gray;
+}
+
+.tags {
+  color: white;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Question Form Css*/
+
+#postQuestionButton {
+  color: white;
+  background-color: lightblue;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+#postAnswerButton {
+  color: white;
+  background-color: lightblue;
+  padding: 10px;
+  display: block;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.input1 {
+  width: 97%;
+  height: 40px;
+  font-size: 20px;
+  overflow: auto;
+}
+
+#summaryInput {
+  width: 97%;
+  height: 100px;
+  font-size: 20px;
+  vertical-align: top;
+  text-align: left;
+  overflow: auto;
+}
+
+#textInput {
+  width: 97%;
+  height: 200px;
+  font-size: 20px;
+  vertical-align: top;
+  text-align: left;
+  overflow: auto;
+}
+
+/* Question Form CSS*/
+
+#answerHeaderDiv {
+  border-bottom: dotted;
+}
+
+.answerHeaderUpperDiv,
+.answerHeaderLowerDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#views {
+  flex: 1;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+#questionDetails {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+#questionContent {
+  margin-bottom: 10px;
+}
+
+#questionTags {
+  display: flex;
+  gap: 10px; /* Spacing between tags */
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tag {
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.questionVotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.questionVotes button {
+  background: lightgray;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.questionVotes button .arrow {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.questionVotes span {
+  margin: 0 10px;
+}
+
+#authorDiv {
+  flex: 1;
+}
+
+#answerTitle {
+  flex: 5;
+  margin-right: 10px;
+}
+
+#answerCount {
+  margin-top: 25px;
+  flex: 1;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.individualAnswerDiv {
+  border-bottom: dotted;
+  padding: 15px;
+  display: flex;
+}
+
+.answeredby {
+  flex: 1;
+}
+
+.answerText {
+  flex: 6;
+  margin-right: 20px;
+}
+.individualAnswerDiv {
+  border-bottom: dotted;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.answeredby,
+.answerVotes {
+  align-self: flex-start;
+}
+
+.answeredby span {
+  margin-right: 5px;
+}
+
+.answerText {
+  flex: 1;
+  margin-right: 20px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.answerVotes {
+  margin-top: 10px;
+  align-self: center;
+}
+
+#answerButton {
+  color: white;
+  background-color: lightblue;
+  padding: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* Css for tags page */
+
+#tag1,
+#tag2 {
+  display: inline-block;
+}
+
+#tagTopDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-left: 5%;
+  max-width: 90%;
+}
+
+.tag {
+  padding: 20px;
+  border: dotted;
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+}
+
+.tagLink {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+
+/* Answer Form css*/
+
+#answerTextInput {
+  width: 97%;
+  height: 200px;
+  font-size: 20px;
+  vertical-align: top;
+  text-align: left;
+  overflow: auto;
+}
+
+.tagLink {
+  background: none;
+  color: blue;
+  border: none;
+  cursor: pointer;
+}
+.tagLink:hover {
+  color: darkblue;
+}
+
+/* Add css for homepage */
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.welcome-container h1 {
+  margin-bottom: 20px;
+}
+
+.welcome-container button {
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-container button:hover {
+  background-color: darkblue;
+}
+
+/* Css for Register Container */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.register-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.register-container button {
+  background-color: rgb(72, 72, 180);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+  background-color: darkblue;
+}
+
+/* css for login container */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.login-container button {
+  background-color: rgb(72, 72, 180);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: darkblue;
+}
