@@ -1,5 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/9NDadFFr)
-Add design docs in *images/*
 
 ## Instructions to setup and run project
 
@@ -59,8 +57,3 @@ Several user accounts are created in the `init.js` script for testing purposes, 
 
 
 
-## Team Member 1 Contribution
-
-Set up cookie sessions, login pages, welcome pages, register page, react app from hw3, backend server.js, init.js, new user schema, user profile, admin account, Use cases 1-14, new server routes, updated schemas.
-
-## Team Member 2 Contribution
